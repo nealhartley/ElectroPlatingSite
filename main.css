@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1/11/2016, 5:53:39 PM
+    Author     : Neal
+*/
+
+/*
+style sheet for wellington electro plating
+*/
+
+body{
+    margin: 0;
+}
+
+
+/*top bar styling*/
+.header{
+    font-size: 2em;
+    width:100%;
+    background-color: rgb(191,191,191);
+    
+    border: solid;
+    border-color: rgb(191,191,191);
+    
+    text-align: center;
+    
+}
+
+.title{
+    
+   /* border: solid;
+    border-color: red;*/
+    display: inline-block;
+}
+
+/*main body with info*/
+.info_body{
+    width:75%;
+    
+}
+
+/*location side bar*/
+.location{
+    width:20%;
+}
+
+#map_google{
+    height: 100px;
+    width: 100px;
+}
