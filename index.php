@@ -15,32 +15,43 @@ and open the template in the editor.
         <div class = "header">
             
             <div class = "title">
-                <h1>Wellington <br>  &nbsp; Electroplating</h1>     
+                <h1>Wellington Electroplating</h1>     
             </div>
                 
         </div>
-        
-        <div class = "info_body">
+        <!--main content of the website, holds the body with business details plus the location div with 
+            contact details-->
+        <div class = "main_content">
             
-            
-        </div>
-        
-        <div class = "location">
-        
-            <div id = "map_google">
+            <!--contains main info about what the business does plus some images of their work-->
+            <div class = "info_body">
                 
+                <div class = "image">
+                </div>
+
             </div>
+            <!--contains all details related to getting in contact with the business-->
+            <div class = "location">
+
+                <div id = "map_google">
+
+                </div>
+
+                <div class = "contact_info">
+                    
+                    <h3>Contact Info</h3>
+                    <p>
+                        18(a) Cornish St,<br>                       
+                        Petone<br>
+                        <br>
+                        Phone: 04 568 5924
+                        Email: sales@wgtnelectro.co.nz
+                    </p>
+                </div>
+
+                <div class = "contact_form"></div>
             
-            <div class = "contact_info">
-                <p>
-                    18(a) Cornish St<br>
-                    Petone<br>
-                    Ph 04 568 5924
-                </p>
             </div>
-            
-            <div class = "contact_form"></div>
-            
         </div>
         
         <div class = "bottom_bar_info">

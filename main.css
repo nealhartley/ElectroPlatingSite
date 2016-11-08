@@ -14,6 +14,7 @@ style sheet for wellington electro plating
 
 body{
     margin: 0;
+    background-color: #F0F0F0;
 }
 
 
@@ -37,18 +38,49 @@ body{
     display: inline-block;
 }
 
+/*this is the box containg the info div aswell as the location div*/
+.main_content{
+    width:80%;
+    
+    margin:auto;
+    
+    border: solid;
+    border-color: red;
+}
+
+
 /*main body with info*/
 .info_body{
-    width:75%;
+    display: inline-block;
+    width:65%;
+    height:100%;
+    
+    border: solid;
+    border-color: yellow;
     
 }
 
 /*location side bar*/
 .location{
-    width:20%;
+    margin-left: 1em;
+    display: inline-block;
+    background-color: white;
+    
+    width:30%;
+    height: max-content;
+    
+    border: solid;
+    border-color: green;
+}
+
+.contact_info{
+width: 80%;
+margin:auto;
 }
 
 #map_google{
-    height: 100px;
-    width: 100px;
+    margin:auto;
+    margin-top: 1em;
+    height: 40em;
+    width: 80%;
 }
