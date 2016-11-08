@@ -26,9 +26,34 @@ and open the template in the editor.
             <!--contains main info about what the business does plus some images of their work-->
             <div class = "info_body">
                 
-                <div class = "image">
-                </div>
+                <div class = "info_container">
+                    <div class = "image">
 
+                        <img src = "images/motorbike.jpg"
+                             alt ="electroplated 72 custom Harley"
+                             style="width:600px;height:400px;">
+                        <p>72 custom Harley by Hutt City Autos</p>
+                    </div>
+
+                    <h3>Wellington Electroplating</h3>
+                    <p>Providing you with quality plating in:</p>
+                    <ul type="circle">
+                        <li>Copper</li>
+                        <li>Nickel</li>
+                        <li>Chrome</li>
+                        <li>Production Chrome Plating</li>
+                        <li>Production Bright Zinc Plating</li>
+                        <li>Zinc Barrel Plating</li>
+                        <li>Zinc Chromate</li>
+                        <li>Black Zinc</li>
+                        <li>Silver</li>
+                        <li>Tin</li>
+                        <li>Heat Treatment</li>
+                        <li>Long and Short Runs</li>
+                        <li>Metal Polishing</li>
+                    </ul>
+                </div>
+                
             </div>
             <!--contains all details related to getting in contact with the business-->
             <div class = "location">
@@ -45,6 +70,7 @@ and open the template in the editor.
                         Petone<br>
                         <br>
                         Phone: 04 568 5924
+                        <br>
                         Email: sales@wgtnelectro.co.nz
                     </p>
                 </div>
@@ -61,13 +87,13 @@ and open the template in the editor.
         
         <script>
             function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
+        var cornish = {lat: -41.222512, lng: 174.860600};
         var map = new google.maps.Map(document.getElementById('map_google'), {
-          zoom: 4,
-          center: uluru
+          zoom: 14,
+          center: cornish
         });
         var marker = new google.maps.Marker({
-          position: uluru,
+          position: cornish,
           map: map
         });
       }

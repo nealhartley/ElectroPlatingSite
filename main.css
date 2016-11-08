@@ -40,25 +40,39 @@ body{
 
 /*this is the box containg the info div aswell as the location div*/
 .main_content{
-    width:80%;
+    width:70%;
     
     margin:auto;
+    margin-top: 1em;
     
-    border: solid;
+   /* border: solid;
     border-color: red;
+   */
 }
 
+.image{
+  
+}
 
 /*main body with info*/
 .info_body{
     display: inline-block;
-    width:65%;
+    width:60%;
     height:100%;
     
-    border: solid;
+   /* border: solid;
     border-color: yellow;
-    
+    */
 }
+.info_container{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+
 
 /*location side bar*/
 .location{
@@ -66,11 +80,12 @@ body{
     display: inline-block;
     background-color: white;
     
-    width:30%;
+    width:35%;
     height: max-content;
     
-    border: solid;
+   /* border: solid;
     border-color: green;
+    */
 }
 
 .contact_info{
@@ -83,4 +98,12 @@ margin:auto;
     margin-top: 1em;
     height: 40em;
     width: 80%;
+}
+
+.bottom_bar_info{
+    width:100%;
+    background-color: rgb(191,191,191);
+    
+    border: solid;
+    border-color: rgb(191,191,191);
 }
