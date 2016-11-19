@@ -8,6 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <link type="text/css" rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Taviraj:500" rel="stylesheet"> 
         
         <title></title>
     </head>
@@ -29,10 +30,10 @@ and open the template in the editor.
                 <div class = "info_container">
                     <div class = "image">
 
-                        <img src = "images/motorbike.jpg"
-                             alt ="electroplated 72 custom Harley"
-                             style="width:600px;height:400px;">
-                        <p>72 custom Harley by Hutt City Autos</p>
+                        <div class = "picture_harley">
+                        </div>
+                        
+                        <p><i>72 custom Harley by Hutt City Autos</i></p>
                     </div>
 
                     <h3>Wellington Electroplating</h3>
@@ -81,7 +82,10 @@ and open the template in the editor.
         </div>
         
         <div class = "bottom_bar_info">
-            <h2>Wellington <br>  &nbsp;Electroplating</h2>
+            <div class = "bottom_name_info">
+                <h2>Wellington  &nbsp; Electroplating</h2>
+                <p>Phone: 04 568 5924 &nbsp&nbsp Email: Sales@wgtnelectro.co.nz</p>
+            </div>
             
         </div>
         
