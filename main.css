@@ -15,8 +15,12 @@ style sheet for wellington electro plating
 body{
     margin: 0;
   
-    background-color: rgb(191,191,191);
+    /*background-color: #2D5A7D;
+    background-color: #D2E2EE;
+    */
+    background-color: #D2E2EE;
     font-family: 'Taviraj', serif;
+    color: #4A4A4A;
 }
 
 
@@ -24,26 +28,48 @@ body{
 .header{
     
     font-size: 2em;
-    width:98%;
+    width:100%;
     margin: auto;
-    background-color: white;
-    
-    border: solid;
-    border-color: black;
-    
-    margin-top: 0.5em;
-    
+   
+    /*
+    background-image: url("images/ElectroLogo.png");
+    background-size: 2em;
+    */
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-color:  #A0BDD4;
+        
     text-align: center;
+    
     
 }
 
+.logo{
+   /* height: 5em;
+    width: 5em;
+    
+    background-image: url("images/ElectroLogo.png");
+    background-size: 100% 100%;
+   
+   */
+   
+   background-image: url("images/ElectroLogo.png");
+   background-size: 100% 100%;
+   display: inline-block;
+   vertical-align: bottom;
+   margin-bottom: 0.5em;
+   margin-right: 2%
+       
+}
+
+
+
 @media screen and (max-width: 500px){
     .header{
-        font-size: 1em;
+        font-size: 0.5em;
         width:98%;
         margin: auto;
-        background-color: white;
-
+        
         border: solid;
         border-color: black;
 
@@ -63,7 +89,7 @@ body{
 
 /*this is the box containg the info div aswell as the location div*/
 .main_content{
-    width:100%;
+    width:80%;
     
     margin:auto;
     margin-top: 1em;
@@ -72,6 +98,10 @@ body{
     border-color: red;
    */
 }
+
+.image{
+        text-align: center;
+    }
 
 .picture_harley{
     width:100%;
@@ -94,12 +124,13 @@ body{
     
     width:64%;
     height:100%;
-    background-color: white;
-    margin-left: 1em;
+    background-color: #D2E2EE;
+    margin-left: 1%;
     
+   /*
     border: solid;
     border-color: black;
-   /* border: solid;
+    border: solid;
     border-color: yellow;
     */
 }
@@ -119,16 +150,21 @@ body{
 
 /*location side bar*/
 .location{
+    /*
     border: solid;
     border-color: black;
-    margin-left: 1em;
+    */
+    margin-left: 1%;
     display: inline-block;
-    background-color: white;
+    background-color: #D2E2EE;
+    margin-right: 1%;
+    float:right;
     
-    width:32%;
+    width:31%;
     height: 100%;
     
     padding-bottom: 23.5em;
+    padding-top: 1em;
     
    /* border: solid;
     border-color: green;
@@ -149,36 +185,44 @@ margin:auto;
     
     margin:auto;
     margin-top: 1em;
-    height: 28em;
+    height: 14em;
     width: 94%;
 }
 
 .bottom_bar_info{
-    width:98%;
+    width:100%;
     
     padding-bottom: 1em;
+    padding-top: 1em;
     
     margin: auto;
     margin-bottom: 0.5em;
     
-    background-color: white;
-        
-    border: solid;
-    border-color: black;
+    background-color:  #A0BDD4;
     
 }
 
 .bottom_name_info{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
 /*tablet*/
 @media screen and (max-width: 1240px)
                 and (min-width: 501px){
+                    
+    .header{
+        border: none;
+        background-color:  #A0BDD4;
+        font-size: 0.5em;
+        
+        background-image: none;
+    }
+    
+    
     
     .main_content{
-        width: 98%;
+        width: 100%;
         margin: auto;
     }
     
@@ -188,26 +232,24 @@ margin:auto;
 
         width:100%;
         height:100%;
-        background-color: white;
+        
         margin: auto;
 
-        border: solid;
-        border-color: black;
+        
     }
+    
     
     .picture_harley{
         height: 25em;
     }
     
-    .location{
-        border: solid;
-        border-color: black;
-        margin: auto;
-        
-        background-color: white;
+    .location{        
+         
+        background-color:  #A0BDD4;
 
         width:100%;
         padding-bottom: 1em;
+        margin-right: 0%;
         
     }
     
@@ -228,6 +270,15 @@ margin:auto;
         vertical-align: top;
     }
     
+     .bottom_bar_info{
+        border: none;
+        background-color: #D2E2EE;
+        
+    }
+    
+    .bottom_name_info{
+        width: 90%;
+    } 
     
 }
 
@@ -235,17 +286,24 @@ margin:auto;
 /*phone*/
 @media screen and (max-width: 500px){
     
+    .header{
+        border: none;
+        background-color:  #A0BDD4;
+        background-image: none;
+    }
+    
+    .main_content{
+        width: 100%;
+    }
+    
     .info_body{
         display: inline-block;
         vertical-align: top;
 
-        width:98%;
+        width:100%;
         height:100%;
-        background-color: white;
-        margin: auto;
-
-        border: solid;
-        border-color: black;
+    
+        margin: auto;       
     }
     
     .picture_harley{
@@ -253,13 +311,13 @@ margin:auto;
     }
     
     .location{
-        border: solid;
-        border-color: black;
+        
         margin: auto;
+        margin-right: 0%;
         display: inline-block;
-        background-color: white;
+        background-color:  #A0BDD4;
 
-        width:98%;
+        width:100%;
         padding-bottom: 1em;
         
     }
@@ -268,6 +326,16 @@ margin:auto;
         height: 10em;
         
     }
+    
+    .bottom_bar_info{
+        border: none;
+        background-color: #D2E2EE;
+        
+    }
+    
+    .bottom_name_info{
+        width: 90%;
+    } 
     
     
 }

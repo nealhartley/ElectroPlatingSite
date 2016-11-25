@@ -10,14 +10,15 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link type="text/css" rel="stylesheet" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Taviraj:500" rel="stylesheet"> 
-        
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <title></title>
     </head>
     <body>
         <div class = "header">
+            <div class = "logo"></div>
             
-            <div class = "title">
-                <h1>Wellington Electroplating</h1>     
+            <div class = "title">                                
+                <h1>WELLINGTON ELECTROPLATING</h1>     
             </div>
                 
         </div>
@@ -37,7 +38,7 @@ and open the template in the editor.
                         <p><i>72 custom Harley by Hutt City Autos</i></p>
                     </div>
 
-                    <h3>Wellington Electroplating</h3>
+                    <h3>Wellington Electroplating ltd</h3>
                     <p>Providing you with quality plating in:</p>
                     <ul type="circle">
                         <li>Copper</li>
@@ -107,7 +108,36 @@ and open the template in the editor.
         
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAI4J9hOGjfVkFJiI_OmdMm0Myy5SHR_LY&callback=initMap" async defer>
         </script>
-
+        
+        <script>
+            var height = $(".title").height();
+            
+            console.log(height);
+            
+            $(".logo").width(height);
+            $(".logo").height(height);
+            
+            window.addEventListener('resize', function(event){
+                
+                var height = $(".title").height();
+            
+                console.log(height);
+            
+                $(".logo").width(height);
+                $(".logo").height(height);
+                
+                var windowWidth = window.innerWidth
+                || document.documentElement.clientWidth
+                || document.body.clientWidth;
+                
+                if(windowWidth < 433){
+                    $(".logo").width(140);
+                    $(".logo").height(140);
+                }
+                
+            });
+            
+        </script>
         
         
     </body>
