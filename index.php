@@ -11,7 +11,9 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Taviraj:500" rel="stylesheet"> 
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <title></title>
+        <title>Wellington Electroplating, Provides quality electro plating</title>
+        <meta name="description" content="provides quality electroplating in the Wellington region. Will service all your electroplating needs."/>
+        <meta name="robots" content="index,follow"/>
     </head>
     <body>
         <div class = "header">

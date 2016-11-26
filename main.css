@@ -38,8 +38,12 @@ body{
     background-repeat: no-repeat;
     background-position-x: 5%;
     background-color:  #A0BDD4;
+    
+    
         
     text-align: center;
+    
+    box-shadow: 10px 10px 5px #888888;
     
     
 }
@@ -53,7 +57,7 @@ body{
    
    */
    
-   background-image: url("images/ElectroLogo.png");
+   background-image: url("images/logo_lightning.png");
    background-size: 100% 100%;
    display: inline-block;
    vertical-align: bottom;
@@ -127,12 +131,18 @@ body{
     background-color: #D2E2EE;
     margin-left: 1%;
     
-   /*
+    
     border: solid;
-    border-color: black;
-    border: solid;
-    border-color: yellow;
-    */
+    border-color: #B31818;
+    border-width: 2px;
+    border-radius: 2px;
+    
+    outline-color: #0D96FF;
+    outline-style: solid;
+    outline-width: 2px;
+    
+    
+    box-shadow: 10px 10px 5px #888888;
 }
 
 
@@ -144,16 +154,26 @@ body{
     
    
     padding-bottom: 1em;
+    
+    
+    
 }
 
 
 
 /*location side bar*/
 .location{
-    /*
+    
     border: solid;
-    border-color: black;
-    */
+    border-color: #B31818;
+    border-width: 2px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 5px #888888;
+    
+    outline-color: #0D96FF;
+    outline-style: solid;
+    outline-width: 2px;
+    
     margin-left: 1%;
     display: inline-block;
     background-color: #D2E2EE;
@@ -163,7 +183,7 @@ body{
     width:31%;
     height: 100%;
     
-    padding-bottom: 23.5em;
+    padding-bottom: 2em;
     padding-top: 1em;
     
    /* border: solid;
@@ -199,6 +219,7 @@ margin:auto;
     margin-bottom: 0.5em;
     
     background-color:  #A0BDD4;
+    box-shadow: 10px 10px 5px #888888;
     
 }
 
@@ -217,6 +238,8 @@ margin:auto;
         font-size: 0.5em;
         
         background-image: none;
+        
+        box-shadow: none;
     }
     
     
@@ -234,6 +257,10 @@ margin:auto;
         height:100%;
         
         margin: auto;
+        
+        outline: none;
+        border: none;
+        box-shadow: none;
 
         
     }
@@ -246,6 +273,10 @@ margin:auto;
     .location{        
          
         background-color:  #A0BDD4;
+        
+        outline: none;
+        border: none;
+        box-shadow: none;
 
         width:100%;
         padding-bottom: 1em;
@@ -273,6 +304,7 @@ margin:auto;
      .bottom_bar_info{
         border: none;
         background-color: #D2E2EE;
+        box-shadow: none;
         
     }
     
@@ -290,6 +322,8 @@ margin:auto;
         border: none;
         background-color:  #A0BDD4;
         background-image: none;
+        
+        box-shadow: none;
     }
     
     .main_content{
@@ -299,7 +333,11 @@ margin:auto;
     .info_body{
         display: inline-block;
         vertical-align: top;
-
+        
+        outline: none;
+        border: none;
+        box-shadow: none;
+        
         width:100%;
         height:100%;
     
@@ -316,6 +354,10 @@ margin:auto;
         margin-right: 0%;
         display: inline-block;
         background-color:  #A0BDD4;
+        
+        outline: none;
+        border: none;
+        box-shadow: none;
 
         width:100%;
         padding-bottom: 1em;
@@ -330,6 +372,8 @@ margin:auto;
     .bottom_bar_info{
         border: none;
         background-color: #D2E2EE;
+        
+        box-shadow: none;
         
     }
     
