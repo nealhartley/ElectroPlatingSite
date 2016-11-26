@@ -14,6 +14,9 @@ and open the template in the editor.
         <title>Wellington Electroplating, Provides quality electro plating</title>
         <meta name="description" content="provides quality electroplating in the Wellington region. Will service all your electroplating needs."/>
         <meta name="robots" content="index,follow"/>
+        <meta http-equiv="expires" content="-1">
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
     </head>
     <body>
         <div class = "header">
