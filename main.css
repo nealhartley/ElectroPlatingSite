@@ -109,7 +109,7 @@ body{
 
 .picture_harley{
     width:100%;
-    height: 30em;
+    padding-bottom: 66%;
     margin: auto;
     
     
@@ -264,11 +264,7 @@ margin:auto;
 
         
     }
-    
-    
-    .picture_harley{
-        height: 25em;
-    }
+      
     
     .location{        
          
@@ -344,10 +340,7 @@ margin:auto;
         margin: auto;       
     }
     
-    .picture_harley{
-        height: 10em;
-    }
-    
+        
     .location{
         
         margin: auto;
