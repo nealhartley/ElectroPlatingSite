@@ -8,9 +8,11 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        
         <link type="text/css" rel="stylesheet" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Taviraj:500" rel="stylesheet"> 
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        
         <title>Wellington Electroplating, Provides quality electro plating</title>
         <meta name="description" content="provides quality electroplating in the Wellington region. Will service all your electroplating needs."/>
         <meta name="robots" content="index,follow"/>
@@ -96,6 +98,44 @@ and open the template in the editor.
             
         </div>
         
+        
+        <!--call to action-->
+            <!--button to toggle the inquiry page-->
+        <div class = inquiry_toggle_button>
+            <h3>Get a Quote!</h3>
+        </div>
+        
+            <!--the inquiry page-->
+        <div class = "inquiry_open">
+            
+            <div class = "contact_form">    
+                <h3>Thank you for choosing to get in touch with us!</h3>
+                <form action = "sendMail.php" method ="post">
+                    
+                <div>
+                   <label for="name">Name</label>
+                   <input type="text" id="name" name="user_name" maxlength="50"/>
+               </div>
+
+                <div>
+                    <label for ="mail">Email:</label>
+                    <input type = "text" id="mail" name="user_email" maxlength="50"/>
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="user_message" maxlength="1000"></textarea>
+                </div>
+
+                <div class = "submit">
+                    <button type="submit" >Send your message</button>
+                </div>
+            </form>
+            </div>
+            
+            
+        </div>
+        
         <script>
             function initMap() {
         var cornish = {lat: -41.222512, lng: 174.860600};
@@ -142,7 +182,14 @@ and open the template in the editor.
                 
             });
             
+            $('.inquiry_toggle_button').on('click',function(){
+                $('.inquiry_open').toggleClass('closed');
+                console.log("pressed")
+              });
+            
+            
         </script>
+        
         
         
     </body>
