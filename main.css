@@ -231,17 +231,31 @@ margin:auto;
 .inquiry_toggle_button{
     position: fixed;
     left: 0;
-    top: 0;
+    top: 40%;
     width: 5%;
     height: 10em;
     
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 5%;
     
     z-index: 10;
     background-color: #0D96FF;
     cursor: pointer;
 }
 
-
+.closed{
+    
+    position: fixed;
+    
+    transition: transform .5s;
+    
+    -ms-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    
+}
 
 .inquiry_open{
     transition: transform .5s;
@@ -254,7 +268,8 @@ margin:auto;
     top: 0;
     left: 0;
     
-    position: absolute;
+    position: fixed;
+    
     
         
     width:100%;
@@ -265,14 +280,7 @@ margin:auto;
     z-index: 5;
 }
 
-.closed{
-       
-    -ms-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
-    
-}
+
 
 .contact_form{
    
@@ -282,15 +290,38 @@ margin:auto;
     margin:auto;
     margin-top: 5%;
     margin-bottom: 5%;
+   
+    padding-top: 1em;
     
     background-color: #D2E2EE;
     text-align: center;
-    vertical-align: middle;
+  
+    vertical-align: top;
     
     
 }
 
+textArea{
+    
+    width: 60%;
+    margin-top: 2em;
+    resize: vertical;
+    height: 10em;;
+}
 
+.back{
+    cursor: pointer;
+    background-color: #0D96FF;
+    width: 40%;
+    margin: auto;
+    border-radius: 2%;
+    float: bottom;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+button{
+    
+}
 
 
 /*tablet*/
@@ -373,6 +404,28 @@ margin:auto;
         width: 90%;
     } 
     
+    .contact_form{
+        width: 90%;
+        height: 90%;
+        padding-top: 0;
+    }
+    
+    .inquiry_toggle_button{
+        margin:auto;
+        position: initial;
+        width: 80%;
+    }
+    
+    .inquiry_toggle_button{
+        position: initial;
+        width: 60%;
+        height: 2em;
+        margin:auto;
+        text-align: center;
+        
+        box-shadow: 5px 5px 5px 5px #888888;
+    }
+    
 }
 
 
@@ -432,6 +485,7 @@ margin:auto;
         background-color: #D2E2EE;
         
         box-shadow: none;
+        height: 5em;
         
     }
     
@@ -439,7 +493,43 @@ margin:auto;
         width: 90%;
     } 
     
+    .inquiry_toggle_button{
+        position: initial;
+        width: 60%;
+        height: 2em;
+        margin:auto;
+        text-align: center;
+        
+        box-shadow: 5px 5px 5px 5px #888888;
+    }
     
+    .contact_form{
+        width: 90%;
+        height: 90%;
+        size: 0.5em;
+        padding-top: 0;
+    }
     
+    input{
+        width: 90%;
+    }
     
+    textArea{    
+        width: 90%;
+        resize: vertical;
+        height: 5em;
+        margin-top: 0;
+    }
+    
+}
+
+/*styling for sendmail.php*/
+
+.thanks{
+    text-align: center;
+    width: 100%;
+}
+
+.return{
+    text-align: center;
 }

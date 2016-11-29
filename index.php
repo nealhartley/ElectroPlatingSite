@@ -84,8 +84,13 @@ and open the template in the editor.
                         Email: sales@wgtnelectro.co.nz
                     </p>
                 </div>
+                
+                   <!--button to toggle the inquiry page-->
+                <div class = inquiry_toggle_button>
+                    <h3>Get a Quote!</h3>
+                </div>
 
-                <div class = "contact_form"></div>
+                
             
             </div>
         </div>
@@ -100,13 +105,9 @@ and open the template in the editor.
         
         
         <!--call to action-->
-            <!--button to toggle the inquiry page-->
-        <div class = inquiry_toggle_button>
-            <h3>Get a Quote!</h3>
-        </div>
-        
+                 
             <!--the inquiry page-->
-        <div class = "inquiry_open">
+        <div class = "closed">
             
             <div class = "contact_form">    
                 <h3>Thank you for choosing to get in touch with us!</h3>
@@ -118,7 +119,7 @@ and open the template in the editor.
                </div>
 
                 <div>
-                    <label for ="mail">Email:</label>
+                    <label for ="mail">Your Details:</label>
                     <input type = "text" id="mail" name="user_email" maxlength="50"/>
                 </div>
 
@@ -128,8 +129,10 @@ and open the template in the editor.
                 </div>
 
                 <div class = "submit">
-                    <button type="submit" >Send your message</button>
+                    <button type="submit" >Send your inquiry</button>
                 </div>
+                
+                <div class = "back"><p>back</p></div>
             </form>
             </div>
             
@@ -183,7 +186,12 @@ and open the template in the editor.
             });
             
             $('.inquiry_toggle_button').on('click',function(){
-                $('.inquiry_open').toggleClass('closed');
+                $('.closed').toggleClass('inquiry_open');
+                console.log("pressed")
+              });
+              
+            $('.back').on('click',function(){
+                $('.closed').toggleClass('inquiry_open');
                 console.log("pressed")
               });
             
