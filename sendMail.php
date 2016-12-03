@@ -25,7 +25,7 @@
                 $message ="email message: \n". htmlspecialchars($_POST['user_message']);
 
 
-                $reciever = 'neal.w.hartley@gmail.com';
+                $reciever = 'sales@wgtnelectro.co.nz';
 
                 mail($reciever, 'FROM WEBSITE', $name.$email.$message);
             }
