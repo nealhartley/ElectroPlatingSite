@@ -115,12 +115,17 @@ and open the template in the editor.
                     
                 <div>
                    <label for="name">Name</label>
-                   <input type="text" id="name" name="user_name" maxlength="50"/>
+                   <input type="text" id="name" name="user_name" maxlength="50" />
                </div>
 
                 <div>
-                    <label for ="mail">Your Details:</label>
+                    <label for ="mail">Your Email:</label>
                     <input type = "text" id="mail" name="user_email" maxlength="50"/>
+                </div>
+                    
+                <div>
+                    <label for ="phone">Phone Numbers:</label>
+                    <input type = "text" id="phone" name="user_phone" maxlength="50"/>
                 </div>
 
                 <div>
@@ -129,7 +134,7 @@ and open the template in the editor.
                 </div>
 
                 <div class = "submit">
-                    <button type="submit" >Send your inquiry</button>
+                    <button type="submit" >Send your Enquiry</button>
                 </div>
                 
                 <div class = "back"><p>back</p></div>

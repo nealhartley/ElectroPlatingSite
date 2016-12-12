@@ -21,13 +21,15 @@
                 $name = "thier name: \n".htmlspecialchars($_POST['user_name'])."\n\n";
 
                 $email = "thier email: \n".htmlspecialchars($_POST['user_email'])."\n\n";
+                
+                $phone = "thier phone: \n".htmlspecialchars($_POST['user_phone'])."\n\n";
 
                 $message ="email message: \n". htmlspecialchars($_POST['user_message']);
 
 
                 $reciever = 'sales@wgtnelectro.co.nz';
 
-                mail($reciever, 'FROM WEBSITE', $name.$email.$message);
+                mail($reciever, 'FROM WEBSITE', $name.$email.$phone.$message);
             }
 
             ?> 

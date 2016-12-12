@@ -18,7 +18,7 @@ body{
     /*background-color: #2D5A7D;
     background-color: #D2E2EE;
     */
-    background-color: #D2E2EE;
+    background-color: #F3BCBC;
     font-family: 'Taviraj', serif;
     color: #4A4A4A;
 }
@@ -230,9 +230,9 @@ margin:auto;
 
 .inquiry_toggle_button{
     position: fixed;
-    left: 0;
+    left: 90%;
     top: 40%;
-    width: 5%;
+    width: 10%;
     height: 10em;
     
     color: white;
@@ -242,7 +242,7 @@ margin:auto;
     border-radius: 5%;
     
     z-index: 10;
-    background-color: #0D96FF;
+    background-color: black;
     cursor: pointer;
 }
 
@@ -329,6 +329,17 @@ button{
 /*tablet*/
 @media screen and (max-width: 1240px)
                 and (min-width: 501px){
+                    
+    body{
+        margin: 0;
+
+        /*background-color: #2D5A7D;
+        background-color: #D2E2EE;
+        */
+        background-color: #D2E2EE;
+        font-family: 'Taviraj', serif;
+        color: #4A4A4A;
+    }
                     
     .header{
         border: none;
@@ -433,6 +444,17 @@ button{
 
 /*phone*/
 @media screen and (max-width: 500px){
+    
+    body{
+        margin: 0;
+
+        /*background-color: #2D5A7D;
+        background-color: #D2E2EE;
+        */
+        background-color: #D2E2EE;
+        font-family: 'Taviraj', serif;
+        color: #4A4A4A;
+    }
     
     .header{
         border: none;
